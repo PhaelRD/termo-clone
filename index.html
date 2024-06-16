@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Termo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>TERMO</h1>
+        </header>
+        <main>
+            <div id="game-board">
+                <!-- Tentativas serão inseridas aqui dinamicamente -->
+                <div class="guess-row">
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                </div>
+                <div class="guess-row">
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                </div>
+                <div class="guess-row">
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                </div>
+                <div class="guess-row">
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                </div>
+                <div class="guess-row">
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                </div>
+                <div class="guess-row">
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                    <div class="letter"></div>
+                </div>
+            </div>
+            <div id="keyboard">
+                <!-- Teclado virtual -->
+                <div class="keyboard-row">
+                    <button>Q</button>
+                    <button>W</button>
+                    <button>E</button>
+                    <button>R</button>
+                    <button>T</button>
+                    <button>Y</button>
+                    <button>U</button>
+                    <button>I</button>
+                    <button>O</button>
+                    <button>P</button>
+                </div>
+                <div class="keyboard-row">
+                    <button>A</button>
+                    <button>S</button>
+                    <button>D</button>
+                    <button>F</button>
+                    <button>G</button>
+                    <button>H</button>
+                    <button>J</button>
+                    <button>K</button>
+                    <button>L</button>
+                </div>
+                <div class="keyboard-row">
+                    <button>Z</button>
+                    <button>X</button>
+                    <button>C</button>
+                    <button>V</button>
+                    <button>B</button>
+                    <button>N</button>
+                    <button>M</button>
+                    <button id="backspace">⌫</button>
+                    <button id="submit-guess">ENTER</button>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <button id="restart-game">Reiniciar</button>
+            <div id="message"></div>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
